@@ -24,7 +24,6 @@ for 5G core networks.
 21.10 will include: 
 
 	* 5G eNodeB/ gNodeB
-	* CoreScope Application
   	* Overall stability and performance updates
 
 22.04
