@@ -44,6 +44,7 @@ srsENB
 The srsENB LTE eNodeB includes the following features:
 
 - LTE Release 10 aligned
+- 5G NSA support
 - FDD configuration
 - Tested bandwidths: 1.4, 3, 5, 10, 15 and 20 MHz
 - Transmission mode 1 (single antenna), 2 (transmit diversity), 3 (CCD) and 4 (closed-loop spatial multiplexing)
@@ -68,7 +69,7 @@ The srsENB LTE eNodeB includes the following features:
 
 Read the :ref:`ENB User Manual <enb_intro>`. for further info on the eNB.
 
-srsENB also has support for 5G NSA, you can read more about this in the :ref:`advanced usage <enb_advanced>` section of the srsENB documenation. 
+srsENB also has support for 5G NSA, you can read more about this in the :ref:`advanced usage <enb_advanced>` section of the srsENB documentation. 
 
 srsEPC
 ******
