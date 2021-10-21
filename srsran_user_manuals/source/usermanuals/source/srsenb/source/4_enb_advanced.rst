@@ -48,3 +48,25 @@ Implementing 5G NSA with srsENB
 -------------------------------
 
 To enable a 5G NSA connection with srsENB you will need to modify the configuration files for srsENB. Namely, the *rr.conf* file, by enabling an NR secondary carrier for the existing eNB. This is covered in more detail in the relevant :ref:`app note<5g_nsa_zmq_appnote>` detailing how to use ZMQ to create an E2E 5G NSA network using srsRAN. 
+
+5G NSA Features
+---------------
+
+  * LTE Release 15 aligned
+  * FDD and TDD configuration
+  * Tested bandwidths: 10 MHz
+  * Transmission mode 1 (single antenna)
+  * Frequency-based ZF and MMSE equalizer
+  * Highly optimized LDPC and Polar encoders and decoders available in Intel SSE4.1/AVX2/AVX512
+  * Detailed log system with per-layer log levels and hex dumps
+  * MAC layer wireshark packet capture
+  * Command-line trace metrics
+  * Detailed input configuration files
+  * Channel simulator for EPA, EVA, and ETU 3GPP channels
+  * ZeroMQ-based fake RF driver for I/Q over IPC/network
+  * User-plane encryption
+  * All layers for NSA operation (no RRC, no SDAP, no NG)
+  * PUCCH formats 1 and 2 supported
+  * UE-specific and Common Search Spaces
+  * DCI formats 0_0 and 1_0 supported
+  * Physical Signals: NZP-CSI and Synchronization signals supported
