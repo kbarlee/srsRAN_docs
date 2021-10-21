@@ -40,7 +40,7 @@ install and use ZMQ with srsRAN can be found :ref:`here <zeromq_appnote>`. This 
 
 This set up requires the following: 
 
-	* srsUE running in a seperate network namespace 
+	* srsUE running in a separate network namespace 
 	* srsENB configured so that both an LTE eNB, and an NSA gNB cell are created at run time 
 	* srsEPC with the UE included in the list of subscribers 
 
@@ -132,7 +132,7 @@ First the the changes required to enable ZMQ should be made. This involves chang
 	device_name = zmq
 	device_args = fail_on_disconnect=true,tx_port0=tcp://*:2000,rx_port0=tcp://localhost:2001,tx_port1=tcp://*:2100,rx_port1=tcp://localhost:2101,id=enb,base_srate=23.04e6	
 
-Similarly to the UE there are two TX and two RX channels. These channels are mapped to the relevent ports configured on the UE. 
+Similarly to the UE there are two TX and two RX channels. These channels are mapped to the relevant ports configured on the UE. 
 
 No other changes are needed in the enb.conf. 
 

@@ -72,7 +72,7 @@ To check that your RF driver has been picked up when running ``cmake ..`` during
 
 ``grep <driver> srsRAN/build/CMakeCache.txt``
 
-If you are using UHD as your driver, you should see the following output if srsRAN has successfully deteced it when ``cmake ..`` was run:: 
+If you are using UHD as your driver, you should see the following output if srsRAN has successfully detected it when ``cmake ..`` was run:: 
 
    $ grep UHD -m 4 CMakeCache.txt 
 
@@ -365,7 +365,7 @@ Once the UE has connected to the network, the console outputs of the srsENB and 
 
 srsENB
 ======
-If a successful connection is made, a ``RACH`` message should be seen followed by a ``USER <ID> connected`` message where "<ID>" is the RNTI assigned to the UE::
+If a successful connection is made, a ``RACH`` message should be seen followed by a ``USER <ID> connected`` message where "<ID>" is the RNTI assigned to the UE:: 
 
 	==== eNodeB started ===
 	Type <t> to view trace
